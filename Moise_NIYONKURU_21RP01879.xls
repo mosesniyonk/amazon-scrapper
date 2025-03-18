@@ -1,0 +1,83 @@
+<table border="2" name="resultsTable" id="resultsTable">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Product Price</th>
+                    <th>Retailer Name</th>
+                    <th>Global Ratings</th>
+                    <th>Product Picture</th>
+                    <th>Commission Fee</th>
+                    <th>Total Price</th>
+                    <th>Retailer Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>2020 MacBook Air Laptop M1 Chip, 13” Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Gray</td>
+                    <td>689.99</td>
+                    <td></td>
+                    <td>4.8 out of 5 stars</td>
+                    <td><img src="https://m.media-amazon.com/images/I/71jG+e7roXL._AC_UY218_.jpg" alt="Product Image"></td>
+                    <td>68.99900000000001</td>
+                    <td>758.989</td>
+                    <td>info@amazon.com</td>
+                </tr>
+                
+                <tr>
+                    <td>MacBook Air 13.3" with Retina Display, M1 Chip with 8-Core CPU and 7-Core GPU, 16GB Memory, 256GB SSD, Space Gray, Late 2020</td>
+                    <td>1174.99</td>
+                    <td></td>
+                    <td>4.4 out of 5 stars</td>
+                    <td><img src="https://m.media-amazon.com/images/I/51KhexN7YkL._AC_UY218_.jpg" alt="Product Image"></td>
+                    <td>117.49900000000001</td>
+                    <td>1292.489</td>
+                    <td>info@amazon.com</td>
+                </tr>
+                
+                <tr>
+                    <td>Mac OS (Sonoma/Ventura/Monterey/Etc) Keyboard Shortcuts, M1/M2/M3/Intel No-Residue Clear Vinyl Sticker, Compatible with 13-16-inch MacBook Air and Pro</td>
+                    <td>5.99</td>
+                    <td></td>
+                    <td>4.6 out of 5 stars</td>
+                    <td><img src="https://m.media-amazon.com/images/I/914PsRTnnrL._AC_UY218_.jpg" alt="Product Image"></td>
+                    <td>0.5990000000000001</td>
+                    <td>6.589</td>
+                    <td>info@amazon.com</td>
+                </tr>
+                
+                <tr>
+                    <td>2023 MacBook Pro Laptop M3 chip with 8‑core CPU, 10‑core GPU: 14.2-inch Liquid Retina XDR Display, 8GB Unified Memory, 512GB SSD Storage. Works with iPhone/iPad; Space Gray</td>
+                    <td>1434.51</td>
+                    <td></td>
+                    <td>4.7 out of 5 stars</td>
+                    <td><img src="https://m.media-amazon.com/images/I/61lsexTCOhL._AC_UY218_.jpg" alt="Product Image"></td>
+                    <td>143.451</td>
+                    <td>1577.961</td>
+                    <td>info@amazon.com</td>
+                </tr>
+                
+                <tr>
+                    <td>2022 MacBook Air Laptop with M2 chip: 13.6-inch Liquid Retina Display, 8GB RAM, 512GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera. Works with iPhone and iPad; Starlight</td>
+                    <td>1367.5</td>
+                    <td></td>
+                    <td>4.8 out of 5 stars</td>
+                    <td><img src="https://m.media-amazon.com/images/I/710TJuHTMhL._AC_UY218_.jpg" alt="Product Image"></td>
+                    <td>136.75</td>
+                    <td>1504.25</td>
+                    <td>info@amazon.com</td>
+                </tr>
+                
+                <tr>
+                    <td>USB C Adapters for MacBook Pro/Air,Mac Dongle with 3 USB Port,USB C to HDMI, USB C to RJ45 Ethernet,MOKiN 9 in 1 USB C to HDMI Adapter,100W Pd Charging, USB C to SD/TF Card Reader USB C Hub</td>
+                    <td>28.78</td>
+                    <td></td>
+                    <td>4.3 out of 5 stars</td>
+                    <td><img src="https://m.media-amazon.com/images/I/71JrzFDLxlL._AC_UY218_.jpg" alt="Product Image"></td>
+                    <td>2.878</td>
+                    <td>31.658</td>
+                    <td>info@amazon.com</td>
+                </tr>
+                
+            </tbody>
+        </table>

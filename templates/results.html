@@ -1,0 +1,56 @@
+<!-- result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    <button id="exportButton">Export to XLS</button>
+    <table border="2" name="resultsTable" id="resultsTable">
+        <thead>
+            <tr>
+                <th>Photo</th>
+                <th>Product</th>
+                <th>Ratings</th>
+                <th>Price</th>
+                <th>Commission Fee</th>
+                <th>Total Price</th>
+                <th>Retailer Email</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in data %}
+            <tr>
+                <td><img src="{{ item['Image URL'] }}" alt="Product Image" style="max-width: 100px;"></td>
+                <td>{{ item['Title'] }}</td>
+                <td>{{ item['Ratings'] }}</td>
+                <td>{{ item['Price'] }}</td>
+                <td>{{ item['Commission'] }}</td>
+                <td>{{ item['Total Price'] }}</td>
+                <td>{{ item['Email'] }}</td>
+
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+
+
+    <script>
+        document.getElementById("exportButton").addEventListener("click", function() {
+            // Function to download data as XLS file
+            var table = document.getElementById("resultsTable");
+            var html = table.outerHTML;
+            var url = 'data:application/vnd.ms-excel,' + encodeURIComponent(html);
+            var link = document.createElement("a");
+            link.download = "search_results.xls";
+            link.href = url;
+            link.click();
+        });
+    </script>
+</body>
+</html>
